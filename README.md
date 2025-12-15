@@ -53,14 +53,16 @@ The codebase is the result of **merging multiple modules into a single coherent 
 
 - `db/`
   - `connection.py` – MySQL connection using environment variables
+  - `schema.sql` – Database schema creation script
+  - `seed.sql` – Initial sample data insertion script
 
-- `models/`
+- `app/models/`
   - BaseModel and domain models (Borrower, Author, Book, Loan, DashboardStats, Report)
 
-- `queries/`
+- `app/queries/`
   - All raw SQL queries (CRUD, dashboard, reports)
 
-- `services/`
+- `app/services/`
   - Business logic and validation layer
   - Acts as a bridge between GUI and models
 
