@@ -1,0 +1,9 @@
+Python 3.9+
+MySQL Server 8.0+
+
+Python dependencies:
+- mysql-connector-python
+- python-dotenv
+- matplotlib
+- tkinter
+- os
